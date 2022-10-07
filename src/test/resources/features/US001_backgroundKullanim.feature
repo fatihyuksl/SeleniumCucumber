@@ -11,7 +11,7 @@ Feature: US001 Background Kullanimi
 
     Then kullanici tea pot icin arama yapar
     And sonuclarin tea pot icerdigini test eder
-    And sayfayi kapatir
+    And sayfayi kapatiryy
 
   Scenario:TC03 kullanici amazonda flower aratir
 
