@@ -17,7 +17,7 @@ public class AmazonStepDefinition {
     public void sonuclarinNutellaIçerdiğiniTestEder() {
     }
 
-    @And("sayfayı kapatır")
+    @And("sayfayı kapatıır")
     public void sayfayıKapatır() {
     }
 }
