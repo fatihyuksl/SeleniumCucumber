@@ -11,11 +11,11 @@ Feature: US001 Background Kullanimi
 
     Then kullanici tea pot icin arama yapar
     And sonuclarin tea pot icerdigini test eder
-    And sayfayi kapatiryy
+    And sayfayi kapatir
 
   Scenario:TC03 kullanici amazonda flower aratir
 
 
     Then kullanici flower icin arama yapar
-    And sonuclarin flower icerdigini test eder
+    And sonuclarin flower icerdigini test eder1
     And sayfayi kapatir
