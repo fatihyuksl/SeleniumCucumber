@@ -17,5 +17,5 @@ Feature: US001 Background Kullanimi
 
 
     Then kullanici flower icin arama yapar
-    And sonuclarin flower icerdigini test eder1
+    And sonuclarin flower icerdigini test eder12
     And sayfayi kapatir
