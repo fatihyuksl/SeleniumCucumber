@@ -1,6 +1,6 @@
 Feature: US001 Background Kullanimi
   Background: ortak adimlar
-    Given kullanici amazon anasayfasina
+    Given kullanici amazon anasayfasina gider
   Scenario: TC01 kullanici amazonda kelime aratir
 
     Then kullanici iphone icin arama yapar
@@ -17,5 +17,5 @@ Feature: US001 Background Kullanimi
 
 
     Then kullanici flower icin arama yapar
-    And sonuclarin flower icerdigini test eder12345678
+    And sonuclarin flower icerdigini test eder
     And sayfayi kapatir

@@ -12,20 +12,20 @@ import utilities.Driver;
 public class AmazonStepDefinition {
     AmazonPage amazonPage = new AmazonPage();
 
-    @Given("kullanici amazon anasayfasina")
-    public void kullaniciAmazonSayfasinda() {
+    @Given("kullanici amazon anasayfasina gider")
+    public void kullaniciAmazonSayfasinaGider() {
 
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
     }
 
     @Then("kullanici iphone icin arama yapar")
-    public void kullanici_nutella_icin_arama_yapar() {
+    public void kullanici_iphone_icin_arama_yapar() {
 
         amazonPage.aramakutusu.sendKeys("iphone" + Keys.ENTER);
     }
 
     @Then("sonuclarin iphone icerdigini test eder")
-    public void sonuclarin_nutella_icerdigini_test_eder() {
+    public void sonuclarin_iphone_icerdigini_test_eder() {
         String arananKelime = "iphone";
         String actualAramaSonucElementi = amazonPage.aramaSonucuElementi.getText();
         Assert.assertTrue(actualAramaSonucElementi.contains(arananKelime));
@@ -99,6 +99,7 @@ public class AmazonStepDefinition {
         Assert.assertTrue(actualUrl.contains(istenenKelime));
 
     }
+
 
 
 }

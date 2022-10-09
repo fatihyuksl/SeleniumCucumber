@@ -1,6 +1,6 @@
 Feature: US001 Background Kullanimi
   Background: ortak adimlar
-    Given kullanici amazon anasayfasina
+    Given kullanici amazon anasayfasina gider
   Scenario: TC01 kullanici amazonda kelime aratir
 
     Then kullanici iphone icin arama yapar
