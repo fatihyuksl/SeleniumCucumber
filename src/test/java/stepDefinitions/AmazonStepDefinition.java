@@ -70,7 +70,7 @@ public class AmazonStepDefinition {
     }
 
     @And("sonuclarin {string} icerdigini test eder")
-    public void sonuclarinIcerdiginiTestEder(String istenenKelime) {234
+    public void sonuclarinIcerdiginiTestEder(String istenenKelime) {2345
 
         String actualText = amazonPage.aramaSonucuElementi.getText();
         String expectedText = istenenKelime;
