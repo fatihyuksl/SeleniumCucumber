@@ -3,6 +3,8 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import org.checkerframework.checker.units.qual.C;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.AmazonPage;
@@ -70,18 +72,14 @@ public class AmazonStepDefinition {
     }
 
     @And("sonuclarin {string} icerdigini test eder")
-    public void sonuclarinIcerdiginiTestEder(String istenenKelime) {2345
+    public void sonuclarinIcerdiginiTestEder(String istenenKelime) {
 
         String actualText = amazonPage.aramaSonucuElementi.getText();
         String expectedText = istenenKelime;
         Assert.assertTrue(actualText.contains(expectedText));
     }
 
-    @Given("kullanici {string} anasayfasina")
-    public void kullaniciAnasayfasina(String istenenUrl) {
 
-        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
-    }
 
     @Then("kullanici {int} saniye bekler")
     public void kullaniciSaniyeBekler(int istenenSaniye) {
@@ -101,5 +99,14 @@ public class AmazonStepDefinition {
     }
 
 
+    @Given("kullanici {string} anasayfasina gider")
+    public void kullaniciAnasayfasinaGider(String arananUrl) {
+        Driver.getDriver().get(ConfigReader.getProperty(arananUrl));
+    }
 
+    @When("url'nin {string} içerdiğini test edelim")
+    public void urlNinIçerdiğiniTestEdelim(String istenenUrl) {
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(istenenUrl));
+    }
 }
