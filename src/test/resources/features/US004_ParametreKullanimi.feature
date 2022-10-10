@@ -3,4 +3,4 @@ Feature: US004 Parametre Kullanımı
     Given kullanici "hepsiburada" anasayfasina gider
     Then kullanici 3 saniye bekler
     When url'nin "google" içerdiğini test edelim
-    And sayfayi kapatir//1
+    And sayfayi kapatir//12
