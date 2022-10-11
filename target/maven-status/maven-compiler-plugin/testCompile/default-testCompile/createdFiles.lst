@@ -3,5 +3,6 @@ pages\AmazonPage.class
 stepDefinitions\AmazonStepDefinition.class
 runners\Runner.class
 utilities\Driver.class
+pages\BrcPage.class
+stepDefinitions\Bluerentacar.class
 utilities\ConfigReader.class
-stepDefinitions\HMCStepDefinitions.class

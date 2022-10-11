@@ -1,52 +1,52 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import pages.HmcPage;
+import pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class HMCStepDefinitions {
+public class Bluerentacar {
 
-    HmcPage hmcPage = new HmcPage();
+    BrcPage brcPage = new BrcPage();
 
-    @Given("kullanici hmc anasayfasina gider")
-    public void kullaniciHmcSayfasinaGider() {
+    @Given("kullanici bluerentacar anasayfasina gider")
+    public void kullaniciBluerentacarAnasayfasinaGider() {
 
-        Driver.getDriver().get(ConfigReader.getProperty("hmcUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
     }
 
     @Then("Log in yazisina tiklar")
     public void log_in_yazisina_tiklar() {
-        hmcPage.login.click();
+        brcPage.ilkLoginButonu.click();
 
     }
 
     @Then("gecerli username girer")
     public void gecerli_username_girer() {
-        hmcPage.userNameTexti.sendKeys(ConfigReader.getProperty("userName"));
+        brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
 
     }
 
     @Then("gecerli password girer")
     public void gecerli_password_girer() {
-        hmcPage.passwordTexti.sendKeys(ConfigReader.getProperty("password"));
+        brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcValidPassword"));
     }
 
     @Then("login butonuna basar")
     public void login_butonuna_basar() {
-        hmcPage.LoginButtonu.click();
+        brcPage.ikinciLoginButonu.click();
 
     }
 
     @Then("sayfaya giris yaptigini kontrol eder")
     public void sayfaya_giris_yaptigini_kontrol_eder() {
 
-        Assert.assertTrue(hmcPage.girisYapildi.isDisplayed());
+        Assert.assertTrue(brcPage.kullaniciProfilIsmi.isDisplayed());
 
     }
+
 
 
 }

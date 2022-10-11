@@ -19,6 +19,6 @@ Feature: US003 dogru kullanici adi ve sifre ile giris yapilabilmeli
     And sayfayi kapatir
   Scenario: TC04 Parametre kullaniminda ConfigReader Kullanimi
     Given kullanici "amazonUrl" anasayfasina gider
-    Then kullanici 3 saniye bekler
+    Then kullanici 3 saniye beklerU
     When url'nin "amazon" içerdiğini test edelim
     And sayfayi kapatir
