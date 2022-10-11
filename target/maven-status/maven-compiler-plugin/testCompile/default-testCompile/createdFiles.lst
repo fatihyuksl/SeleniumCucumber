@@ -5,4 +5,5 @@ runners\Runner.class
 utilities\Driver.class
 pages\BrcPage.class
 stepDefinitions\Bluerentacar.class
+stepDefinitions\HepsiBuradaStepDefinition.class
 utilities\ConfigReader.class
