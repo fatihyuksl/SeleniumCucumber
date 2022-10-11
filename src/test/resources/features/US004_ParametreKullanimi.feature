@@ -3,4 +3,4 @@ Feature: US004 Parametre Kullanımı
     Given kullanici "hepsiburada" sayfasinda
     Then kullanici 3 saniye bekler
     When url'nin "hepsiburada" icerdigini test edelim
-    And sayfayi kapatir23
+    And sayfayi kapatir
