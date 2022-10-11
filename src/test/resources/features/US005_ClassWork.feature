@@ -6,4 +6,4 @@ Feature: US005 ClassWork
     Then gecerli password girer
     Then login butonuna basar
     Then sayfaya giris yaptigini kontrol eder
-    And sayfayi kapatir123
+    And sayfayi kapatir1234
