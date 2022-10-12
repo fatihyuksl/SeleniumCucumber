@@ -1,9 +1,13 @@
+stepDefinitions\AmazonStepDefinition.class
+stepDefinitions\HerOkuStepDefinition.class
+pages\HerokuPages.class
+pages\BrcPage.class
+stepDefinitions\HepsiBuradaStepDefinition.class
+stepDefinitions\DataBaseOutline.class
 pages\HmcPage.class
 pages\AmazonPage.class
-stepDefinitions\AmazonStepDefinition.class
 runners\Runner.class
 utilities\Driver.class
-pages\BrcPage.class
 stepDefinitions\Bluerentacar.class
-stepDefinitions\HepsiBuradaStepDefinition.class
 utilities\ConfigReader.class
+pages\DataBasePage.class
