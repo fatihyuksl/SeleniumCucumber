@@ -7,4 +7,4 @@ Feature: US1011ClassWork
     And  Delete butonunun gorunur oldugunu test edin
     Then Delete butonuna basarak butonu silin
     And  Delete butonunun gorunmedigini test edin
-    And  sayfayi kapatir
+    And  sayfayi kapatir0
