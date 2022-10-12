@@ -11,7 +11,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 
 public class Driver {
-    private Driver() {234
+    private Driver() {2345
 
     }
 
