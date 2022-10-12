@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -26,6 +27,10 @@ public class Bluerentacar {
     @Then("gecerli username girer")
     public void gecerli_username_girer() {
         brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
+    }
+        @Then("gecersiz username girer")
+    public void gecersiz_username_girer() {
+        brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
 
     }
 
@@ -48,6 +53,22 @@ public class Bluerentacar {
     }
 
 
+    @Then("brc sayfasina giris yapilamadigini kontrol eder")
+    public void brcSayfasinaGirisYapilamadiginiKontrolEder() {
+        Assert.assertTrue(brcPage.ikinciLoginButonu.isDisplayed());
 
+    }
+
+    @And("{string} username girer")
+    public void usernameGirer(String gecersizEmail) {
+        brcPage.emailTextBox.sendKeys(gecersizEmail);
+
+    }
+
+    @And("{string} password girer")
+    public void passwordGirer(String gecersizPass) {
+        brcPage.passwordTextBox.sendKeys(gecersizPass);
+
+    }
 }
 
