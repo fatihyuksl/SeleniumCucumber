@@ -18,7 +18,7 @@ public class DataBaseOutline {
 
     @When("kullanici {string} adresine gider")
     public void kullaniciAdresineGider(String istenenUrl) {
-        Driver.getDriver().get(ConfigReader.getProperty("dataUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
     }
 
     @Then("new butonuna basar")
