@@ -8,15 +8,15 @@ import utilities.Driver;
 import java.util.List;
 
 public class HerokuPages {
-    public HerokuPages() {
+    public HerokuPages(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
-    @FindBy(xpath = "//button[@onclick='addElement()']")
-    public WebElement addElementButtonu;
-
-    @FindBy(xpath = "//button[@class='added-manually']")
-    public WebElement deleteElementButonu;
-    @FindBy(xpath = "//div[@id='elements']//button")
-    public List<WebElement> deleteListesi;
+    @FindBy(css = "button[onclick=\"addElement()\"]")
+    public WebElement addElementButton;
+    @FindBy(css = "button[class=\"added-manually\"]")
+    public WebElement deleteButton;
+    @FindBy(xpath = "//h3[.='Add/Remove Elements']")
+    public WebElement addRemovesElementsText;
+    @FindBy(xpath = "//*[text()='Delete']")
+    public WebElement deleteElement;
 }
