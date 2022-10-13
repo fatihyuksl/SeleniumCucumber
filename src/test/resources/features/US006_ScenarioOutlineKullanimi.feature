@@ -8,4 +8,4 @@ Feature:US006 kullanici amazonda istediği kelimeleri aratir
       | istenenKelime |  istenenKelimeKontrol |
       | nutella |  nutella |
       | selenyum |  selenyum |
-      | sql |  sql |1
+      | sql |  sql |12
