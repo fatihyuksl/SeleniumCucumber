@@ -1,4 +1,4 @@
-Feature:US006 kullanici amazonda istediği kelimeleri aratir
+Feature:US006 kullanici amazonda istediği kelimeleri aratir.
   Scenario Outline: TC01 Kullanici istediği kelimeleri aratir
   Given kullanici amazon sayfasina gider
     Then kullanici "<istenenKelime>" icin arama yapar
@@ -8,4 +8,4 @@ Feature:US006 kullanici amazonda istediği kelimeleri aratir
       | istenenKelime |  istenenKelimeKontrol |
       | nutella |  nutella |
       | selenyum |  selenyum |
-      | sql |  sql |12
+      | sql |  sql |
