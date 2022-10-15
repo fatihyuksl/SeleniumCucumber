@@ -1,5 +1,5 @@
 Feature: Us012 Guru Work
-
+@grp5
   Scenario Outline: TC16 kullanici sutun basligi ile liste alabilmeli
     Given kullanici "guruUrl" adresine gider
     And kullanici 3 saniye bekler

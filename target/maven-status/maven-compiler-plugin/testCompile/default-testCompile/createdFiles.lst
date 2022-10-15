@@ -8,9 +8,11 @@ runners\runner.class
 stepDefinitions\DataBaseOutline.class
 pages\HmcPage.class
 pages\AmazonPage.class
+runners\TestRunner.class
 utilities\Driver.class
 stepDefinitions\Bluerentacar.class
 stepDefinitions\Hooks.class
+runners\TestRunner2.class
 runners\GridRunner.class
 utilities\ConfigReader.class
 pages\DataBasePage.class
