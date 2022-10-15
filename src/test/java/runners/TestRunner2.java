@@ -8,14 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin={"html:target/cucumber-reports2.html",
                 "json:target/json-reports/cucumber2.json",
-                "junit:target/xml-report/cucumber2.xml",
-
-        },
-        features = "src/test/resources/features", // path of feature folder
-        glue = "stepDefinitions",// path of the step definitions folder
-        tags = "@grp5",
+                "junit:target/xml-report/cucumber2.xml" },
+        features = "src/test/resources/features",
+        glue = "stepDefinitions",
+        tags = "@web", // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2"
         dryRun = false)
-
 
 public class TestRunner2 {
 }
