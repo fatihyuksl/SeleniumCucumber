@@ -1,7 +1,7 @@
 @auto
 Feature: US015 Kullanici giris testi
   Scenario:TC01 Kullanici sitede hesap olusturur
- # http://automationpractice.com/index.php sayfasina gidelim234
+ # http://automationpractice.com/index.php sayfasina gidelim2345
     Given kullanici "autoUrl" anasayfasinda
     And kullanici sign in linkine tiklar
     And kullanici Create and account bolumune email adresi girer
