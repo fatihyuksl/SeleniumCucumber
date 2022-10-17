@@ -1,18 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="46.622">
-    <testcase classname="US004 Parametre Kullanımı" name="TC01 Parametre Kullanımı" time="46.327">
-        <failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici "hepsiburada" sayfasinda....................................passed
-Then kullanici 3 saniye bekler..............................................passed
-When url'nin "amazon" icerdigini test edelim................................failed
-And sayfayi kapatir.........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinitions.AmazonStepDefinition.urlNinIcerdiginiTestEdelim(AmazonStepDefinition.java:122)
-	at ✽.url'nin "amazon" icerdigini test edelim(file:///C:/Users/ASUS/IdeaProjects/Cucumber/src/test/resources/features/US004_ParametreKullanimi.feature:6)
-]]></failure>
-    </testcase>
-</testsuite>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.076"/>

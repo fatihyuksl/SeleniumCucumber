@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features", // path of feature folder
         glue = "stepDefinitions",// path of the step definitions folder
-        tags = "@grp5",
+        tags = "auto",
         dryRun = false)
 public class GridRunner {
 

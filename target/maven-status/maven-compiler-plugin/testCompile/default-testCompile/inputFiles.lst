@@ -1,8 +1,10 @@
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\DataBasePage.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\BrcPage.java
+C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\AutostepDefinition.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\GuruStepDefinition.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\runners\runner.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\HepsiBuradaStepDefinition.java
+C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\AutoPage.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\runners\TestRunner.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\AmazonStepDefinition.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\Bluerentacar.java
@@ -14,6 +16,8 @@ C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\HerokuPages.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\utilities\Driver.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\runners\GridRunner.java
+C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\WebDriverStepDefinition.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\AmazonPage.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\stepDefinitions\DataBaseOutline.java
 C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\HmcPage.java
+C:\Users\ASUS\IdeaProjects\Cucumber\src\test\java\pages\WebPage.java
